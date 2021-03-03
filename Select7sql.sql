@@ -1,0 +1,7 @@
+USE [AdventureWorks2012]
+GO
+
+
+SELECT DISTINCT LASTNAME
+FROM PERSON.Person
+WHERE LastName LIKE 'SAND%';
